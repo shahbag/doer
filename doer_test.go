@@ -3,7 +3,8 @@ package doer
 import "testing"
 
 func TestDoer(t *testing.T) {
-  if d, err := NewDoer(); err!=nil {
+  d, err := NewDoer()
+  if err!=nil {
     t.Fatal(err)
   }
   d.Close()
