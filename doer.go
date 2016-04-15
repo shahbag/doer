@@ -16,6 +16,7 @@ func NewDoer()(*Doer, error) {
   d := &Doer{
     stats: Stats{said: 0},
   }
+  d.done = make(chan bool)
   go d.say("hello")
   return d, nil
 }
