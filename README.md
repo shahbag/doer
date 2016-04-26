@@ -2,5 +2,5 @@
 
 A package to test git for source control, travis for unit testing and continuous build and maven for system tests.
 
-<a target="_blank" href="https://golang.org/">Golang</a>
-
+I will not change it
+[Golang](https://golang.org/)
